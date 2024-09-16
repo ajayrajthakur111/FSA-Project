@@ -1,0 +1,80 @@
+/* BlogListPage.css */  
+.blog-list-container {  
+    max-width: 800px;  
+    margin: auto;  
+    padding: 20px;  
+    background-color: #1e1e2f;  /* Darker background for better contrast */  
+    border-radius: 8px;  
+    color: #f2f2f2;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}  
+.logout-button{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+h2 {  
+    text-align: center;  
+    color: #ffc107;  
+    margin-bottom: 20px;  
+}  
+
+.blog-list {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+    gap: 20px;  
+}  
+
+.blog-card {  
+    background-color: #2b2b3b;  
+    border-radius: 8px;  
+    padding: 15px;  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  
+    transition: transform 0.3s, box-shadow 0.3s;  
+    position: relative;  /* Allows positioning of edit icon */  
+}  
+
+.blog-card:hover {  
+    transform: translateY(-5px);  
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);  
+}  
+
+.blog-header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;   
+}  
+
+.blog-title {  
+    text-decoration: none;  
+    color: #ffc107;  
+    font-size: 1.5em;  
+    margin-bottom: 10px;  
+    display: block;  
+}  
+
+.edit-icon {  
+    color: #ffc107;  
+    font-size: 1.2em;  
+    text-decoration: none;  
+    transition: color 0.3s;  
+}  
+
+.edit-icon:hover {  
+    color: #ffda44; /* Change color on hover */  
+}  
+
+.blog-content {  
+    color: #e0e0e0;  
+    line-height: 1.5;  
+    margin: 10px 0; /* Add margin for spacing */  
+}  
+
+.blog-meta {  
+    margin-top: 10px;  
+    font-size: 0.9em;  
+    color: #c2c2c2;  
+}

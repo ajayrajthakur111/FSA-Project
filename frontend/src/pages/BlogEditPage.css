@@ -1,0 +1,52 @@
+/* src/components/BlogEditPage.css */  
+.blog-edit-container {  
+    max-width: 600px;  
+    margin: 0 auto;  
+    padding: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    background: #fff;  
+  }  
+  
+  .blog-edit-header {  
+    text-align: center;  
+    margin-bottom: 20px;  
+  }  
+  
+  .blog-edit-textarea {  
+    width: 100%;  
+    padding: 10px;  
+    font-size: 16px;  
+    border-radius: 4px;  
+    border: 1px solid #ccc;  
+    margin-bottom: 10px;  
+    resize: none;  
+  }  
+  
+  .blog-edit-button {  
+    display: block;  
+    width: 100%;  
+    padding: 10px;  
+    font-size: 16px;  
+    border-radius: 4px;  
+    border: none;  
+    background-color: #007bff;  
+    color: #fff;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+  }  
+  
+  .blog-edit-button:hover {  
+    background-color: #0056b3;  
+  }  
+  
+  .blog-edit-error {  
+    color: red;  
+    text-align: center;  
+  }
+  /* .no-pernission-warning-component{
+    position: absolute;
+    left:50px;
+
+  } */
